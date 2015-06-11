@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FloatingButton.h"
+#import "FloatingMenuViewController.h"
 
 @interface ViewController : UIViewController
+
+
+@property (weak, nonatomic) IBOutlet FloatingButton *addButton;
+
+- (IBAction)showBlurView:(FloatingButton *)sender;
 
 
 @end

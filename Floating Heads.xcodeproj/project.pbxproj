@@ -14,6 +14,9 @@
 		9658435E1B28B2A300650D4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9658435D1B28B2A300650D4C /* Images.xcassets */; };
 		965843611B28B2A300650D4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9658435F1B28B2A300650D4C /* LaunchScreen.xib */; };
 		9658436D1B28B2A300650D4C /* Floating_HeadsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9658436C1B28B2A300650D4C /* Floating_HeadsTests.m */; };
+		965843781B28B73400650D4C /* FloatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 965843771B28B73400650D4C /* FloatingButton.m */; };
+		9658437B1B28BAAA00650D4C /* UIColor+FlatColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9658437A1B28BAAA00650D4C /* UIColor+FlatColor.m */; };
+		965EC3911B28E1A400604345 /* FloatingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965EC3901B28E1A400604345 /* FloatingMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		965843661B28B2A300650D4C /* Floating HeadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Floating HeadsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9658436B1B28B2A300650D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9658436C1B28B2A300650D4C /* Floating_HeadsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Floating_HeadsTests.m; sourceTree = "<group>"; };
+		965843761B28B73400650D4C /* FloatingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingButton.h; sourceTree = "<group>"; };
+		965843771B28B73400650D4C /* FloatingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingButton.m; sourceTree = "<group>"; };
+		965843791B28BAAA00650D4C /* UIColor+FlatColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColor.h"; sourceTree = "<group>"; };
+		9658437A1B28BAAA00650D4C /* UIColor+FlatColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColor.m"; sourceTree = "<group>"; };
+		965EC38F1B28E1A400604345 /* FloatingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingMenuViewController.h; sourceTree = "<group>"; };
+		965EC3901B28E1A400604345 /* FloatingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				965843551B28B2A300650D4C /* AppDelegate.m */,
 				965843571B28B2A300650D4C /* ViewController.h */,
 				965843581B28B2A300650D4C /* ViewController.m */,
+				965EC38F1B28E1A400604345 /* FloatingMenuViewController.h */,
+				965EC3901B28E1A400604345 /* FloatingMenuViewController.m */,
+				965843791B28BAAA00650D4C /* UIColor+FlatColor.h */,
+				9658437A1B28BAAA00650D4C /* UIColor+FlatColor.m */,
+				965843761B28B73400650D4C /* FloatingButton.h */,
+				965843771B28B73400650D4C /* FloatingButton.m */,
 				9658435A1B28B2A300650D4C /* Main.storyboard */,
 				9658435D1B28B2A300650D4C /* Images.xcassets */,
 				9658435F1B28B2A300650D4C /* LaunchScreen.xib */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9658437B1B28BAAA00650D4C /* UIColor+FlatColor.m in Sources */,
 				965843591B28B2A300650D4C /* ViewController.m in Sources */,
 				965843561B28B2A300650D4C /* AppDelegate.m in Sources */,
 				965843531B28B2A300650D4C /* main.m in Sources */,
+				965843781B28B73400650D4C /* FloatingButton.m in Sources */,
+				965EC3911B28E1A400604345 /* FloatingMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +434,7 @@
 				965843721B28B2A300650D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		965843731B28B2A300650D4C /* Build configuration list for PBXNativeTarget "Floating HeadsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				965843751B28B2A300650D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

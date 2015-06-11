@@ -10,4 +10,15 @@
 
 @interface UIColor (FlatColor)
 
++(UIColor *)flatWhiteColor;
+
++(UIColor *)flatBlackColor;
+
++(UIColor *)flatBlueColor;
+
++(UIColor *)flatRedColor;
+
++(UIImage *)pixelImage;
+
+
 @end
